@@ -1,0 +1,458 @@
+        /*系统整体颜色变化*/
+        
+        body {
+            background: #F5F5F5;
+            min-width: 850px;
+            background: url("../img/index/table_bg.png") no-repeat;
+            background-size: 70% 70%;
+            background-position: center;
+        }
+        
+        .form-horizontal {
+            position: relative;
+        }
+        
+        .table_footer {
+            width: 200px;
+            height: 157px;
+            position: absolute;
+            bottom: 10px;
+            right: 30px;
+        }
+        
+        .table_header {
+            position: absolute;
+            top: -20px;
+            right: 30px;
+        }
+        
+        .clear_float::after {
+            content: '';
+            clear: both;
+            display: block;
+        }
+        
+        .sidebar-wrapper {
+            background: #010626;
+        }
+        
+        .form-horizontal {
+            /*margin-top: 90px;*/
+        }
+        
+        #carDetail .form-horizontal {
+            /*margin-top: 30px;
+            text-align: center;
+            color: red;*/
+        }
+        
+        #role .form-horizontal {
+            width: 65%;
+            margin: 0 auto;
+            margin-top: 106px;
+        }
+        
+        .form-horizontal h3 {
+            background: #010626;
+            margin-top: 0px;
+            font-size: 16px;
+            color: white;
+            width: 100%;
+            text-indent: 20px;
+            height: 33px;
+            line-height: 33px;
+        }
+        
+        .sidebar-footer {
+            background: #1A1D3E;
+            box-shadow: 0px -1px 5px #1A1D3E;
+            border-top: 1px solid #1A1D3E;
+        }
+        
+        .sidebar-wrapper .sidebar-menu .sidebar-dropdown div {
+            background: #1A1D3E;
+        }
+        
+        .sidebar-wrapper .sidebar-menu ul li a i {
+            /*background: #1A1D3E;*/
+        }
+        
+        .sidebar-wrapper .sidebar-header {
+            border-top: 1px solid #1A1D3E;
+            border-bottom: 1px solid #1A1D3E;
+        }
+        
+        .li1 a {
+            color: #1B6DDA !important;
+            /*color: #BBA7DA !important;*/
+        }
+        
+        .breadcrumb li.active {
+            color: #1B6DDA;
+            /*color: #BBA7DA !important;*/
+        }
+        
+        .sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu li.active a {
+            /*color: #BBA7DA;*/
+            color: #1B6DDA;
+        }
+        
+        .sidebar-brand {
+            background-color: #F5F5F5;
+            border-bottom: 4px solid #1A1D3E;
+            /*border-right: 1px solid #DBDBDB;*/
+            /*background-color: #DBDBDB;*/
+        }
+        
+        .glyphicon-align-justify {
+            color: #01034A;
+        }
+        /*.sidebar-brand a {
+            color: black;
+        }*/
+        /*end 颜色变化*/
+        /*路径导航*/
+        
+        .bread {
+            width: 100%;
+            background-color: rgb(245, 245, 245);
+            border-bottom: 4px solid #DBDBDB;
+            /*position: fixed;*/
+            /*top: 0px;*/
+            /*z-index: 100;*/
+        }
+        
+        .breadcrumb {
+            padding: 15px;
+            /*background-color: #F5F5F5;*/
+            /*background-color: #DBDBDB;*/
+            margin: 0px;
+            border-radius: 0px;
+        }
+        
+        .breadcrumb span {
+            padding-left: 40px;
+            margin-left: -12px;
+            color: #01034A;
+            border-left: 1px solid #DBDBDB;
+        }
+        
+        .bread_right {
+            font-size: 12px;
+            line-height: 30px;
+            margin-right: 30px;
+            margin-top: 11px;
+        }
+        
+        .bread_right i {
+            cursor: pointer;
+        }
+        
+        .tab-pane {
+            display: none;
+        }
+        
+        .tab-pane.active {
+            display: block;
+            width: 100%;
+        }
+        
+        .home_link {
+            float: right;
+        }
+        
+        .home {
+            color: #1B6DDA !important;
+            font-weight: bolder;
+        }
+        
+        .loading {
+            width: 80%;
+            position: fixed;
+            left: 55%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            text-align: center;
+            color: #1B6DDA;
+            font-size: 2rem;
+        }
+        
+        .content_header {
+            text-align: center;
+            font-size: 30px;
+            color: #047AF7;
+        }
+        
+        .content_center {
+            width: 100%;
+            min-width: 1200px;
+        }
+        
+        .tab-content>.active {
+            display: block;
+        }
+        
+        .tab-content>.tab-pane {
+            display: none;
+        }
+        
+        .pull-left.pagination-detail {
+            margin-top: 20px;
+        }
+        
+        .pagination {
+            margin: 0px;
+            margin-top: 10px;
+        }
+        /*carTypeIn 车辆录入表单*/
+        
+        .tableTypein {
+            width: 70%;
+            margin: 0 auto;
+            /*padding-top: 30px;*/
+        }
+        
+        .form-group input {
+            background: transparent;
+            /*color: #A1A2A4;*/
+        }
+        
+        #btn_mytetail,
+        #btn_mydel,
+        .my_btn,
+        .optionBth {
+            border: none;
+            color: white;
+            border-radius: 10px;
+            background: #010B52;
+        }
+        
+        .page-content::after {
+            content: '';
+            clear: both;
+            display: block;
+            /*border: 1px solid gold;*/
+            /*border: none;*/
+        }
+        
+        .container-fluid:after {
+            /*border: none;*/
+            content: '';
+            clear: both;
+            display: block;
+            /*border: 1px solid red;*/
+        }
+        /*搜索*/
+        
+        .search-map {
+            position: absolute;
+            top: 30px;
+            left: 100px;
+            /*border: 1px solid red;*/
+            height: 38px;
+        }
+        
+        #suggestId {
+            box-sizing: border-box;
+            width: 300px;
+            background: white;
+            border: 0;
+            border-left: 10px solid transparent;
+            border-right: 27px solid transparent;
+            line-height: 20px;
+            font-size: 16px;
+            height: 100%;
+            color: #333;
+            outline: none;
+            border-radius: 2px 0 0 2px;
+        }
+        
+        .text_blue {
+            color: #1B6DDA !important;
+        }
+        
+        .search-btn {
+            box-sizing: border-box;
+            border: 0;
+            width: 70px;
+            height: 100%;
+            font-size: 23px;
+            cursor: pointer;
+            text-align: center;
+            color: white;
+            display: inline-block;
+            background: #1B6DDA;
+            margin-left: -3px;
+            position: absolute;
+            top: 0px;
+            left: 302px;
+        }
+        /*位置信息框*/
+        
+        .rightbox {
+            width: 85%;
+            margin: 0 auto;
+            margin-top: 15px;
+        }
+        
+        .point_content {
+            background: #3E3E3E;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        /*权限管理*/
+        
+        textarea {
+            overflow: auto;
+        }
+        /*数据采集*/
+        
+        .longDataBox {
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+        
+        .sidebar-dropdown img,
+        .carmapicon {
+            width: 18px;
+            height: 18px;
+            margin-right: 10px;
+            margin-top: -2px;
+        }
+        
+        .glyphicon-con {
+            width: 22px;
+            height: 20px;
+            color: black;
+            border: 1px solid red;
+        }
+        
+        .config_black {
+            width: 16px;
+            height: 17px;
+            cursor: pointer;
+            vertical-align: middle;
+        }
+        
+        .config-black {
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        /*维修进度模块相关样式*/
+        
+        .searchprogresss {
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+        
+        .maintainbox {
+            width: 850px;
+            margin: 0 auto;
+            margin-top: 100px;
+        }
+        
+        .maintain_progress {
+            margin-bottom: 50px;
+            /*border: 1px solid red;*/
+        }
+        
+        .maintain_progress .pro_status {
+            width: 97%;
+            margin: 15px 0px;
+            /*margin-left: 50px;*/
+        }
+        
+        .search_progresss_input {
+            margin-right: 20px;
+            height: 24px;
+            width: 322px;
+            border-radius: 5px;
+            font-size: 10px;
+            outline: none;
+            text-indent: 5px;
+        }
+        
+        .pro_status_text {
+            width: 100%;
+        }
+        
+        .pro_status_text span {
+            width: 100px;
+            /*border: 1px solid red;*/
+            display: inline-block;
+            text-align: center;
+            margin-left: 140px;
+        }
+        
+        .pro_status_text span:first-child {
+            margin-left: 0px;
+        }
+        /*设置placeholder的颜色*/
+                #maintainList ::-webkit-input-placeholder {
+                  /* WebKit browsers */
+                  color: #666;
+                  font-size: 10px;
+              }
+         ::-webkit-input-placeholder {
+            /* WebKit browsers */
+            color: #666;
+            font-size: 13px;
+        }
+        
+         :-moz-placeholder {
+            /* Mozilla Firefox 4 to 18 */
+            color: #666;
+            font-size: 13px;
+        }
+        
+         ::-moz-placeholder {
+            /* Mozilla Firefox 19+ */
+            color: #666;
+            font-size: 13px;
+        }
+        
+         :-ms-input-placeholder {
+            /* Internet Explorer 10+ */
+            color: #666;
+            font-size: 13px;
+        }
+        /*input框自动填充为黄色的解决方法*/
+        
+        input:-webkit-autofill {
+            box-shadow: 0 0 0px 1000px white inset;
+            /*font-size: 13px;*/
+        }
+        /*fenye*/
+        
+        .pageNav,
+        .driverpage {
+            /*width: 259px;*/
+            float: right;
+        }
+        
+        .driverpage ul,
+        .pageNav ul {
+            list-style: none;
+            overflow: hidden;
+        }
+        
+        .driverpage ul li,
+        .pageNav ul li {
+            float: left;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            margin-right: 5px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            border-radius: 7px;
+            background: #ddd;
+        }
+        
+        .pageNav ul li.cur,
+        .driverpage ul li.cur {
+            background-color: #1B6DDA;
+        }

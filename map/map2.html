@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=qIVEmOSVWxsby5OEWwm6UIbEfHKEDcZz"></script>
+    <!--多点聚合-->
+    <script type="text/javascript" src="http://api.map.baidu.com/library/TextIconOverlay/1.2/src/TextIconOverlay_min.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/library/MarkerClusterer/1.2/src/MarkerClusterer_min.js"></script>
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+
+    <style type="text/css">
+        body,
+        html {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            font-family: "微软雅黑";
+        }
+        
+        #allmap {
+            width: 100%;
+            height: 100%;
+        }
+        
+        p {
+            margin-left: 5px;
+            font-size: 14px;
+        }
+        /*标题*/
+        
+        .map_title {
+            position: absolute;
+            top: 20px;
+            width: 100%;
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        /*搜索*/
+        
+        .search-map {
+            position: absolute;
+            top: 60px;
+            left: 100px;
+            height: 38px;
+        }
+        
+        #suggestId {
+            box-sizing: border-box;
+            width: 300px;
+            background: white;
+            border: 0;
+            border-left: 10px solid transparent;
+            border-right: 27px solid transparent;
+            line-height: 20px;
+            font-size: 16px;
+            height: 100%;
+            color: #333;
+            outline: none;
+            border-radius: 2px 0 0 2px;
+        }
+        
+        .search-btn {
+            box-sizing: border-box;
+            border: 0;
+            width: 70px;
+            height: 100%;
+            font-size: 23px;
+            cursor: pointer;
+            text-align: center;
+            color: white;
+            display: inline-block;
+            background: #1B6DDA;
+            margin-left: -3px;
+            position: absolute;
+            top: 0px;
+            left: 302px;
+        }
+        
+        .search-btn img {
+            width: 25px;
+            height: 25px;
+            margin-top: 7px;
+        }
+        /*位置信息框*/
+        
+        .point_content {
+            border-radius: 5px;
+        }
+        
+        .point_content p {
+            font-size: 12px;
+            line-height: 7px;
+        }
+        /*信息框样式*/
+        
+        .BMap_simple_bubble_pop {
+            border-radius: 10px;
+        }
+        
+        .BMap_pop {
+            /*top: 90px !important;*/
+            /*border: 11px solid red;*/
+            /*border-radius: 10px;*/
+        }
+    </style>
+    <title>全国主要城市车辆数量</title>
+</head>
+
+<body>
+    <div id="allmap"></div>
+    <div class="map_title">
+        全国主要城市车辆数量
+    </div>
+    <div id="r-result" class="search-map">
+        <input type="text" id="suggestId" placeholder="请输入搜索车辆编号" />
+        <div class="search-btn" id="search-btn">
+            <img src="../img/map/search.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script type="text/javascript">
+    var reqUrl = "http://api.map.baidu.com/geoconv/v1/?coords=116.417850,39.921988;116.417850,39.921988&from=1&to=5&ak=pDUf1lcj5kEDkegBS5DSF1TA9uib5AjE";
+    $.getJSON(reqUrl + "&callback=?", function(json) {
+        console.log("success");
+        console.log(json);
+
+    });
+</script>

@@ -1,0 +1,950 @@
+/*消息弹框样式*/
+
+.toast-top-center {
+    top: 35% !important;
+    right: -4% !important;
+    /*width: 100% ;*/
+}
+
+
+/*表格样式*/
+
+.table-responsive {
+    padding-top: 50px;
+}
+
+table {
+    border: 2px solid #C7C7C7;
+}
+
+.keep-open .dropdown-menu {
+    background: #f5f5f5;
+}
+
+.btn {
+    font-size: 12px;
+    padding: 3px 12px;
+}
+
+.form_twolist .form-group {
+    width: 30% !important;
+    display: inline-block;
+}
+
+.form_twolist .form-group:nth-child(3n+1) {
+    margin-left: 40px;
+}
+
+.even_style .form-group {
+    width: 50% !important;
+    display: inline-block;
+}
+
+.even_style .form-group:nth-child(2n+1) {
+    padding-left: 40px;
+    margin-left: 5px;
+}
+
+.caroptrator {
+    height: 20px;
+    font-size: 13px;
+}
+
+.detail_input {
+    height: 25px;
+}
+
+#maintainList .btn-default:hover {
+    background: #010B52;
+}
+
+#maintainList .my_btn {
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background: #1471EE;
+}
+
+#carDetail .row {
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 195px;
+}
+
+.card-view span:first-child {
+    margin-left: 41px;
+    width: 100px !important;
+    display: inline-block;
+}
+
+.card-views .card-view:first-child span {
+    color: #1B6DDA;
+}
+
+.car_image {
+    line-height: 30px;
+}
+
+.car_image_check {
+    padding-top: 9px;
+}
+
+#carCheck .col-sm-5 input,
+#returncarCheck .col-sm-5 input {
+    width: 100px;
+    vertical-align: middle;
+    margin: 0px 0px 0px 0px;
+}
+
+#returncarCheck span {
+    margin-top: 9px;
+}
+
+#returncarCheck .col-sm-7.car_tools_check {
+    margin-top: 9px;
+}
+
+#driverTypeIn .form-group,
+#returncarCheck .form-group {
+    height: 60px;
+    line-height: 44px;
+}
+
+#driverTypeIn .col-sm-7,
+#returncarCheck .col-sm-7 {
+    margin-top: 11px;
+}
+
+#driverTypeIn .col-sm-5,
+#returncarCheck .col-sm-5 {
+    margin-top: 7px;
+}
+
+#driverList {
+    position: relative;
+}
+
+.form_subject {
+    width: 95%;
+    margin: 0 auto;
+    padding: 6px 12px;
+    color: #01034A;
+    background: #f5f5f5;
+}
+
+#sCheck .form_subject {
+    margin-bottom: 30px;
+}
+
+button.btn.btn-default.btn-primary.resetcheck_btn {
+    margin: 30px 40px;
+}
+
+.form_subject i {
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+.form-horizontal {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#m_cancel_btn {
+    margin: 10px 53px;
+}
+
+#driverList span.export_title {
+    bottom: 0px;
+}
+
+span.export_title {
+    left: 572px;
+    position: absolute;
+    bottom: -8px;
+    width: 79px;
+}
+
+.even_style {
+    border: 2px solid #f5f5f5;
+    box-shadow: 4px 11px 3px #f5f5ff;
+}
+
+.even_style .form-group:nth-child(4n+3),
+.even_style .form-group:nth-child(4n+4) {
+    background: #f5f5f5;
+}
+
+.finish_form .from-group-tips {
+    margin-top: -15px;
+}
+
+.maintain_form .form-group {
+    padding-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 0px;
+    min-height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 0px;
+}
+
+button#driverTypeIn_btn,
+.ReturnDriver {
+    margin-top: 16px;
+    margin-left: 28px;
+}
+
+label.drivetypein_tips {
+    padding-left: 200px;
+}
+
+.vSn_tips,
+.tip_style {
+    font-size: 12px;
+    color: red;
+    position: absolute;
+    top: 5px;
+    line-height: 30px;
+}
+
+.panel-body .pull-right {
+    margin-bottom: 15px;
+}
+
+.radio_group {
+    vertical-align: middle;
+}
+
+.groupsearch_btn {
+    width: 56px;
+    background: #1A1D3E;
+    padding: 3px 7px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    top: 0px;
+    outline: none;
+    text-align: center;
+    font-size: 13px;
+    left: 424px;
+    border-radius: 10px;
+}
+
+.form-group_text label {
+    font-weight: normal;
+}
+
+button#upkeep_btn {
+    margin-right: 45px;
+}
+
+input.bom_name,
+input.bom_num {
+    width: 100%;
+    border: none;
+    text-align: center;
+}
+
+.pageMaintain li {
+    width: 20px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    background: #eee;
+    color: #278CDE;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.pageMaintain {
+    float: right;
+    margin-top: -27px;
+}
+
+.pageMaintain li.cur {
+    background: #278CDE;
+    color: white;
+}
+
+.form-group.zhanwei {
+    padding-left: 40px;
+    margin-left: 5px;
+    background: #f5f5f5;
+}
+
+.form-group_text input {
+    width: 385px;
+    height: 25px;
+    line-height: 25px;
+    text-indent: 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-right: 113px;
+}
+
+.col-sm-9.car_tools_check div {
+    padding: 10px 5px;
+}
+
+.col-sm-9.car_tools_check .col-sm-12 span:first-child {
+    /*color: red;*/
+    display: inline-block;
+    width: 130px;
+    vertical-align: middle;
+}
+
+.upitem_group label.col-sm-2.control-label {
+    margin-left: 30px;
+}
+
+#maintainList #toolbar_tablescreen .form-control {
+    display: inline-block;
+    width: 25%;
+    border: 1px solid #ccc;
+    height: 25px;
+    font-size: 11px;
+    line-height: 25px;
+}
+
+#maintainList .input-sm {
+    padding: 2px 10px;
+}
+
+.driveradd_btn button,
+.caradd_btn button {
+    width: 70px;
+    background: #1A1D3E;
+    padding: 4px 7px;
+    color: white;
+    border: none;
+    position: absolute;
+    top: -16px;
+    outline: none;
+    font-size: 13px;
+    left: 0px;
+    border-radius: 10px;
+}
+
+.driveradd_btn button {
+    width: 88px;
+    top: -7px;
+}
+
+.form-group-btn {
+    margin-top: 30px;
+}
+
+.table-hover>tbody>tr:hover {
+    background-color: #DBDBDB;
+    cursor: pointer;
+}
+
+.fixed-table-container tbody .selected td {
+    background-color: #337AB7;
+}
+
+.pull-right .form-control {
+    height: 22px;
+}
+
+#driverList .import-mdoel_select {
+    top: -5px;
+}
+
+.import-mdoel_select {
+    position: absolute;
+    left: 639px;
+    top: -14px;
+    width: 130px !important;
+    height: 26px;
+    font-size: 10px;
+}
+
+span.car_group_name {
+    position: absolute;
+    left: 312px;
+    top: 2px;
+    width: 72px;
+}
+
+.groupbox {
+    position: absolute;
+    left: 79px;
+    top: -14px;
+}
+
+#group_carvSn {
+    width: 80px;
+}
+
+#carListtable_toolbar {
+    width: 500px;
+}
+
+.group-mdoel_select {
+    position: absolute;
+    left: 350px;
+    top: -2px;
+    font-size: 10px;
+    width: 70px !important;
+    height: 26px;
+}
+
+select.form-control.status-mdoel_select {
+    width: 106px;
+    height: 26px;
+    font-size: 10px;
+    position: absolute;
+    left: 199px;
+    top: -2px;
+}
+
+.fixed-table-pagination .pagination a {
+    padding: 1px 5px;
+}
+
+.fixed-table-container tbody td {
+    border: 2px solid #C7C7C7;
+}
+
+#maintainList table tbody td {
+    font-size: 11px;
+}
+
+.fixed-table-container thead tr {
+    background: #DBDBDB;
+    border-bottom: 3px solid #C7C7C7;
+    /*border: 2px solid #C7C7C7;*/
+}
+
+.fixed-table-container thead th {
+    /*border: 1px solid blue;*/
+    border: 2px solid #C7C7C7;
+    /*border-left: 1px solid white;
+    border-right: 1px solid white;*/
+}
+
+.menulist_height {
+    line-height: 30px;
+}
+
+.btn-primary {
+    background: #1471EE;
+}
+
+.checkitem_active {
+    color: #1471EE;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    background: #1471EE;
+    /*background: #1A1D3E;*/
+}
+
+.fixed-table-loading {
+    display: none;
+}
+
+.from-group-tips label {
+    color: #D80000 !important;
+}
+
+.table-responsive span {
+    /*color: #1471EE;*/
+    color: #1A1D3E;
+    margin-top: -2px;
+}
+
+.tablelistbox h3 {
+    margin-top: -12px;
+    margin-bottom: 0px;
+}
+
+.pagination-info,
+.page-list {
+    color: black;
+}
+
+.form-control {
+    width: 80%;
+}
+
+input.form-control {
+    background: white;
+}
+
+#maintainList table td:nth-child(9) {
+    background: #BFEBEB;
+}
+
+#maintainList table thead tr:nth-child(2) th:nth-child(3) {
+    background: #BFEBEB;
+}
+
+.role_check_box label,
+.role_menuList,
+.role_menuList label,
+#add_user_form .col-sm-8,
+#add_user_form .col-sm-8 label {
+    font-size: 13px;
+    color: #666 !important;
+}
+
+.sex-group {
+    margin-top: 7px;
+}
+
+#role .form-horizontal input,
+#add_user_form input {
+    color: #333;
+    vertical-align: middle;
+    margin: 0px 2px 0px 2px;
+}
+
+.role_check_box input {
+    vertical-align: middle;
+    margin: 0px 2px 0px 2px;
+}
+
+
+/*用户列表*/
+
+#toolbar_userList {
+    position: absolute;
+    top: -45px;
+    left: 0px;
+}
+
+#toolbar h3 {
+    display: inline-block;
+    margin-top: -2px;
+}
+
+#userList,
+#roleList,
+#rightsList,
+#menuList {
+    top: 20px;
+}
+
+#rights .add_boxs,
+#role .add_boxs {
+    margin-top: 165px;
+}
+
+.role_check_box,
+.user_check_box {
+    margin-top: 7px;
+    vertical-align: middle;
+}
+
+.add_boxs {
+    display: inline-block;
+}
+
+.add_box .form-control {
+    width: 343px;
+}
+
+.add_boxs .form-group label {
+    color: #1A1D3E;
+}
+
+.mybtn {
+    width: 70px;
+    border-radius: 20px;
+    height: 26px;
+    line-height: 26px;
+    border: none;
+    background: #1A1D3E;
+    color: white;
+    outline: none;
+}
+
+.my_remove {
+    position: absolute;
+    top: 15px;
+    color: #1A1D3E;
+    cursor: pointer;
+    right: 10px;
+}
+
+.add_box_form {
+    width: 700px;
+}
+
+.driveradd_btn {
+    display: inline-block;
+}
+
+#carList .table-responsive {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.modal.in .modal-dialog {
+    margin-top: 15%;
+}
+
+.radio_style {
+    margin-top: 6px;
+}
+
+.model_title {
+    background: #eee;
+    /*text-align: left;*/
+    /*padding: 10px 5px;*/
+    /*margin: 0px !important;*/
+    color: #0078D7;
+}
+
+.form-group-last {
+    margin: 10px 0px;
+}
+
+.detail_part {
+    width: 100%;
+    /*margin: 0 auto;*/
+    margin-top: 20px;
+    /*padding: 0px 20px;*/
+}
+
+.datail_title {
+    width: 95%;
+    margin: 0 auto;
+    background: #eee;
+    height: 40px;
+    padding: 0px 10px;
+}
+
+.detail_menu {
+    display: inline-block;
+}
+
+.detail_menu a:hover {
+    color: #0078D7;
+}
+
+.detail_menu a {
+    margin: 0px 20px;
+    line-height: 40px;
+    padding-bottom: 9px;
+}
+
+.detail_menu a.checkitem_active {
+    color: #0078d7;
+    border-bottom: 2px solid #0078D7;
+}
+
+
+/*门岗是否合法*/
+
+#sentrytable th:last-child {
+    color: red;
+}
+
+#sentrytable td:last-child {
+    color: green;
+    font-weight: bold;
+}
+
+.fixed-table-toolbar {
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+
+#childmenuList {
+    margin-bottom: 0px;
+}
+
+#childmenuList_p {
+    padding-top: 20px;
+}
+
+#menu_rightbox {
+    margin-top: 53px;
+}
+
+#user .form-horizontal {
+    margin-top: 63px;
+}
+
+#menulist_toolbar,
+#childmenulist_toolbar {
+    color: #1B6DDA;
+}
+
+#auditList .fixed-table-pagination,
+table#auditTable {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.fixed-table-container {
+    margin-top: 15px;
+}
+
+
+/*安全检查*/
+
+.checkMenus,
+.menu_style {
+    display: inline-block;
+}
+
+.menu_style button,
+.checkMenus button {
+    text-decoration-line: underline;
+    background: transparent;
+    font-size: 11px;
+    cursor: pointer;
+    margin: 0px 10px 0px 28px;
+    outline: none;
+    border: none;
+}
+
+.menu_style button:hover,
+.checkMenus button:hover {
+    color: #1B6DDA;
+}
+
+.form_style2,
+.pot_style,
+.bomcheck_itembox,
+.form_style4,
+.check_itembox {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+.form_style2 {
+    margin-top: 0px;
+}
+
+.itemlist_head {
+    width: 13% !important;
+    line-height: 20px !important;
+    vertical-align: middle !important;
+    height: auto;
+}
+
+.pot_style div {
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.pot_style div:last-child {
+    margin-right: 0px;
+}
+
+label.audit_tips {
+    color: red;
+    margin-left: 46px;
+    padding-top: 6px;
+}
+
+.pot_style input {
+    width: 60px;
+    text-align: center;
+    margin-left: 2px;
+}
+
+.form_width_style {
+    width: 95% !important;
+    margin: 0 auto;
+}
+
+.checkitem p {
+    height: 37px;
+    border-top: 1px solid #c7c7c7;
+    line-height: 37px;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+.checkitem p:first-child {
+    border: none;
+}
+
+.checkitem p:last-child {
+    /*border-top: none;*/
+}
+
+.checktitle span {
+    /*margin-top: 20px;*/
+    background: #DBDBDB;
+    border: 2px solid #C7C7C7;
+    /*vertical-align: middle;*/
+    /*margin: 0 auto;*/
+}
+
+.checktitle span:nth-child(2),
+.checkitem span:nth-child(2) {
+    width: 10%;
+}
+
+.checktitle span:nth-child(4),
+.checkitem span:nth-child(4) {
+    width: 35%;
+}
+
+.checktitle span,
+.checkitem span {
+    display: inline-block;
+    width: 24%;
+    height: auto;
+    text-align: center;
+    line-height: 40px !important;
+    border: 1px solid #C7C7C7;
+    border-top: none;
+    border-right: none;
+    vertical-align: middle;
+}
+
+
+/*************.form_style2表示线束检查表单的相关样式*************************************/
+
+
+/*************.form_style4表示部件检查表单的相关样式*************************************/
+
+.form_style4 .checkitem span,
+.form_style4 .checktitle span,
+.form_style2 .checktitle span,
+.form_style2 .checkitem span {
+    width: 40%;
+}
+
+.form_style2 .itemlist1,
+.form_style4 .itemlist1 {
+    width: 50%;
+}
+
+.form_style2 .itemlist2,
+.form_style4 .itemlist2 {
+    width: 15% !important;
+}
+
+.form_style4 .itemlist3,
+.form_style2 .itemlist3 {
+    width: 40% !important;
+}
+
+.itemlist_head {
+    float: left;
+    border: none !important;
+}
+
+.form_style4 span.itemlist_head.head7,
+.form_style4 span.itemlist_head.head12 {
+    font-size: 10px;
+    line-height: 17px !important;
+}
+
+.reset_btn {
+    margin: 5px 20px;
+}
+
+span.item_child {
+    width: 87% !important;
+    float: left;
+    border-bottom: none;
+}
+
+.checkitem div:hover {
+    background: #DBDBDB;
+}
+
+.checkitem span {
+    font-size: 13px;
+}
+
+.form_style4 .checkitem p {
+    height: 43px;
+    line-height: 20px;
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+
+.form_style4 .itemlist2 p {
+    font-size: 13px;
+}
+
+.itemlist1 .item_child {
+    font-size: 10px;
+}
+
+.checktitle .item_child {
+    font-size: 13px;
+}
+
+.explain_input {
+    border: none;
+    height: 34px;
+    width: 100%;
+}
+
+.form_style4 .explain_input {
+    height: 100%;
+}
+
+.statusno {
+    margin: 0px 5px;
+}
+
+.road_menu {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #DDE4EA;
+    box-shadow: 2px 4px 5px #DDE4EA;
+    margin-bottom: 20px;
+}
+
+form.check_itembox,
+form.form_style2,
+form.bomcheck_itembox,
+form.form_style4 {
+    margin-bottom: 20px;
+}
+
+.loadleft {
+    width: 80%;
+    display: inline-block;
+}
+
+.loadright {
+    width: 19%;
+    display: inline-block;
+    text-align: right;
+    font-size: 13px;
+    color: #0078D7;
+}
+
+.loadnormal {
+    font-size: 13px;
+    padding: 8px 50px 8px 50px;
+}
+
+.loadactive {
+    background: url("../img/index/load1.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.loadactives {
+    background: url("../img/index/load2.png") no-repeat;
+    background-size: 100% 100%;
+}
